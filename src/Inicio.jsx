@@ -11,7 +11,6 @@ export function Inicio(){
             <label className="letras">
             Clave: 
             <input className="colorlabel" type="password" name="Clave" required/></label>
-            <button as={Link } to ="/login" type="submit" color="primary" onClick={handlelogin()}>Entrar</button>
             <input href="../Registro.jsx" className="button" type="submit" value="Register"/>
         </form>
     </section>
